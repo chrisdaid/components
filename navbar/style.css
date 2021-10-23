@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+}
+
+nav ul li {
+  list-style-type: none;
+  background-color: #fff;
+}
+
+#first {
+  display: flex;
+  justify-content: center;
+}
+
+#first > li {
+  padding: 20px;
+}
