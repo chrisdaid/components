@@ -8,16 +8,36 @@ body {
   background-color: #333;
 }
 
-nav ul li {
-  list-style-type: none;
-  background-color: #fff;
-}
-
-#first {
+#navbar {
+  background-color: #eee;
+  height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  padding: 20px;
 }
 
-#first > li {
-  padding: 20px;
+#navbar .logo img {
+  height: 60px;
+}
+
+#navbar .nav ul {
+  list-style-type: none;
+}
+
+#navbar .nav ul li {
+  padding: 10px;
+  background-color: #333;
+}
+
+#navbar .nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar #first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
